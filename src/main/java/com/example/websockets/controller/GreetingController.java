@@ -14,6 +14,6 @@ public class GreetingController {
     public Greeting getGreeting(HelloMessage message) throws InterruptedException {
         System.out.println(message);
         Thread.sleep(1000);
-        return new Greeting("Hello " +message.getName());
+        return new Greeting(message.getName(),message.getMessage());
     }
 }

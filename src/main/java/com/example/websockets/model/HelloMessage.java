@@ -2,12 +2,20 @@ package com.example.websockets.model;
 
 public class HelloMessage {
     private String name;
-
+    private String message;
     public HelloMessage(String name) {
         this.name = name;
     }
 
     public HelloMessage() {
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 
     public String getName() {
@@ -21,7 +29,8 @@ public class HelloMessage {
     @Override
     public String toString() {
         return "HelloMessage{" +
-                "message='" + name + '\'' +
+                "name='" + name + '\'' +
+                ", message='" + message + '\'' +
                 '}';
     }
 }

@@ -12,6 +12,7 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@stomp/stompjs@7.0.0/bundles/stomp.umd.min.js"></script>
     <script src="/app.js"></script>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
   </head>
   <body>
     <noscript
@@ -49,6 +50,14 @@
                 id="name"
                 class="form-control"
                 placeholder="Your name here..."
+              />
+              <label for="message">Text</label>
+              <input
+                type="text"
+                name="message"
+                id="message"
+                class="form-control"
+                placeholder="Your text"
               />
             </div>
             <button id="send" class="btn btn-default" type="submit">
