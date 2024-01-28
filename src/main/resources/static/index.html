@@ -8,20 +8,141 @@
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous"
     />
-    <link href="/main.css" rel="stylesheet" />
+    <link href="./style/main.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@stomp/stompjs@7.0.0/bundles/stomp.umd.min.js"></script>
-    <script src="/app.js"></script>
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <script src="./script/app.js"></script>
+    <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="grey">
     <noscript
       ><h2 style="color: #ff0000">
         Seems your browser doesn't support Javascript! Websocket relies on
         Javascript being enabled. Please enable Javascript and reload this page!
       </h2></noscript
     >
-    <div id="main-content" class="container">
+
+    <section class="app container">
+      <section class="left-bar">
+        <div class="chats-panel">
+          <button class="button black">+ New chat</button>
+          <div class="opened-chats">
+            <div class="panel-element">
+              <img src="./image/new_chat.png" alt="img" /> AI Chat Tool Ethics
+            </div>
+            <div class="panel-element">
+              <img src="./image/new_chat.png" alt="img" /> Al Chat Tool Impact
+              Writing
+            </div>
+            <div class="panel-element">
+              <img src="./image/new_chat.png" alt="img" /> New chat
+            </div>
+          </div>
+        </div>
+        <div class="manage-panel">
+          <div class="panel-element">
+            <img src="./image/garbage.png" alt="clear" />Clear conversations
+          </div>
+          <div class="panel-element">
+            <img src="./image/light_theme.png" alt="theme" />Light mode
+          </div>
+          <div class="panel-element">
+            <img src="./image/account.png" alt="acc" />My account
+          </div>
+          <div class="panel-element">
+            <img src="./image/updates.png" alt="theme" />Updates & FAQ
+          </div>
+          <div class="panel-element">
+            <img src="./image/SignOut.png" alt="clear" />Log out
+          </div>
+        </div>
+      </section>
+      <section class="main">
+        <section class="talk">
+          <!-- structure for message -->
+          <div class="message-field">
+            <h4>Vasily</h4>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <div class="message-field">
+            <h4>Vasily</h4>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <div class="message-field">
+            <h4>Vasily</h4>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <div class="message-field">
+            <h4>Vasily</h4>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <div class="message-field">
+            <h4>Vasily</h4>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <div class="message-field">
+            <h4>Vasily</h4>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </section>
+        <section class="input-wrapper">
+          <form>
+            <input
+              type="text"
+              id="message"
+              name="message"
+              placeholder="Type message"
+            />
+            <button id="send" type="submit">
+              <img src="./image/sendImage.png" alt="send" />
+            </button>
+          </form>
+        </section>
+      </section>
+    </section>
+    <!-- <div id="main-content" class="container">
       <div class="row">
         <div class="col-md-6">
           <form class="form-inline">
@@ -78,6 +199,6 @@
           </table>
         </div>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>

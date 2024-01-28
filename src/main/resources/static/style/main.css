@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+.container {
+  width: 1440px;
+  margin: auto;
+}
+.app {
+  margin-top: 20px;
+  display: flex;
+  min-height: 1024px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding-top: 20px;
+}
+/* RIGHT BAR */
+.main {
+  display: flex;
+  flex-direction: column;
+  min-width: 1120px;
+}
+.talk {
+  height: 908px;
+  width: auto;
+  min-width: auto;
+  padding: 100px 40px;
+  overflow: auto;
+}
+
+.message-field {
+  margin-bottom: 20px;
+  background-color: rgb(236, 236, 236);
+  max-width: 660px;
+  border-radius: 16px;
+  padding: 10px 15px;
+}
+
+/* SEND message */
+.input-wrapper {
+  width: 760px;
+  padding: 20px;
+  margin: auto;
+}
+.input-wrapper input {
+  background-color: rgb(231, 229, 229);
+  border-radius: 16px;
+  width: 90%;
+  height: 56px;
+  outline: none;
+}
+.input-wrapper button {
+  position: relative;
+  right: 50px;
+  background-color: transparent;
+  border: transparent;
+}
+
+.input-text input,
+.input-text button {
+  background: transparent;
+  border: transparent;
+}
+/* LEFT BAR */
+.left-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid rgba(28, 28, 28, 0.1);
+}
+.chats-panel {
+  padding: 20px;
+}
+.manage-panel {
+  padding: 20px;
+  border-top: 1px solid rgba(28, 28, 28, 0.1);
+}
+.opened-chats {
+  margin-top: 12px;
+}
+.panel-element {
+  padding: 12px;
+}
+.panel-element:hover {
+  opacity: 0.7;
+}
+.panel-element img {
+  margin-right: 12px;
+}
+
+/* SCROLL BAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.button {
+  min-width: 240px;
+  min-height: 40px;
+  border-radius: 12px;
+}
+
+/* COLOR */
+.grey {
+  background-color: #ebeff3;
+}
+.black {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
